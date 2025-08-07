@@ -1,21 +1,21 @@
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Toaster } from '@/components/ui/toaster';
-import { FileText, Search, Trash2 } from 'lucide-react';
+import { Alert, AlertDescription } from '@/components/ui/alert'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { Toaster } from '@/components/ui/toaster'
+import { FileText, Search, Trash2 } from 'lucide-react'
 
-import { CustomTextInput } from '@/components/custom-text/custom-text-input';
-import { ExampleDorks } from '@/components/examples/example-dorks';
-import { FilterItem } from '@/components/filters/filter-item';
-import { FilterSelector } from '@/components/filters/filter-selector';
-import { OperatorGuide } from '@/components/operators/operator-guide';
-import { QueryDisplay } from '@/components/query/query-display';
-import { ThemeToggle } from '@/components/theme/theme-toggle';
+import { CustomTextInput } from '@/components/custom-text/custom-text-input'
+import { ExampleDorks } from '@/components/examples/example-dorks'
+import { FilterItem } from '@/components/filters/filter-item'
+import { FilterSelector } from '@/components/filters/filter-selector'
+import { OperatorGuide } from '@/components/operators/operator-guide'
+import { QueryDisplay } from '@/components/query/query-display'
+import { ThemeToggle } from '@/components/theme/theme-toggle'
 
-import { useDorkBuilder } from '@/hooks/use-dork-builder';
-import { toast } from '@/hooks/use-toast';
+import { useDorkBuilder } from '@/hooks/use-dork-builder'
+import { toast } from '@/hooks/use-toast'
 
 function App() {
   const {
@@ -158,8 +158,8 @@ function App() {
         {/* Footer */}
         <div className="mt-12 pt-8 border-t text-center text-muted-foreground">
           <p className="text-sm">
-            Love this tool? Start at <a href='https://github.com/decryptable/dork' aria-label='github' className='text-blue-400' target='_blank'>
-            Github
+            Love this tool? Give it a star on <a href='https://github.com/decryptable/dork' aria-label='github' className='text-blue-400' target='_blank'>
+            GitHub
             </a>.
           </p>
         </div>
